@@ -1,0 +1,22 @@
+:root {
+    --pomelo-pink: rgb(255, 127, 151);
+    --pomelo-yellow: rgb(244, 228, 56);
+    --pomelo-green: rgb(146, 244, 49);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(var(--pomelo-yellow) 30%, var(--pomelo-pink), var(--pomelo-green));
+}
+.center-image {
+    max-width: 500px;
+    min-width: 200px;
+}
